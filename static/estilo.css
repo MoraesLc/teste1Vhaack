@@ -1,0 +1,236 @@
+
+
+
+
+html, body {
+font-family: 'Zilla Slab', serif;
+
+}
+.titulo{
+    font: 700;
+}
+
+.texto{
+    font: 700;
+}
+
+.imgprojeto{
+    width: 100px;
+    height: 100px;
+}
+
+.img {
+    max-width: 400x;
+    height: 400px;
+}
+
+.img1 {
+  border-radius: 50%;
+}
+
+.img2 {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg {
+  width: 100%;
+  height: auto;
+  background-image: url("nude1.jpg");
+  overflow-y: auto;
+}
+
+.bg1 {
+    width: 100%;
+    height: auto;
+    background-image: url("nude1.jpg");
+    overflow-y: auto;
+}
+
+.center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.w3grayscale {
+  margin-bottom: 120px;
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.w3-half{ width:50%; margin-left: 5px;}
+
+.footer {
+    botton: 0;
+    right: 0;
+    left: 0;
+    background: #feeded;
+}
+
+
+<script>
+$(function(){
+ $(".button-collapse").sideNav();
+});
+</script>
+
+#galeria > div{
+     float: left;
+     width: 33%;
+     padding: 5px;
+     box-sizing: border-box;
+}
+
+.qualquer-coisa {
+    width:15%;
+    height: 10%;
+
+}
+
+.foto img {
+    width: 100%;
+    display: block;
+}
+
+.detalhes {display: none}
+
+#galeria .foto:target {
+    position: fixed;
+    width: 40%;
+    top: 15px;
+    left: 25%;
+    padding: 10px;
+    border: solid 1px #333;
+    box-shadow: 0 0 25px 10px #000
+    background: #fff;
+    border-radius: 5px;
+
+.foto: target .detalhes{
+    display: block;
+}
+
+.profe {
+    width: 100%;
+}
+
+
+
+
+
+CSS
+/* BANNER */
+#banners-container {
+    padding: 0;
+
+}
+
+/* net */
+
+.carousel-inner > .carousel-item > img {
+  width: 700px;
+  height: 400px;
+}
+
+.carousel-caption {
+    bottom: 5em;
+    padding:1em;
+    left: 12%;
+    right: 12%;
+}
+
+.carousel-caption h5 {
+    front-size: 1.8em;
+  }
+
+@media (min-width: 1050px) {
+#slider .carousel-item,
+#slider img {
+    height:400px;
+    width: 1000px;
+
+   }
+.carousel-caption {
+    left: 15%;
+    right: 15%
+   }
+.carousel-caption h5 {
+    font-size: 2.5em;
+   }
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 700px;
+  height: 400px;
+}
+
+
+
+
+/*Rodapé*/
+.footer-basic {
+  padding:40px 0;
+  background-color:f6daab;
+  color:##f6daab;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:2;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title >Vhaack</title>
+    <link rel="stylesheet" href="static/estilo2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="static/estilo.css">
+    <link rel="stylesheet" href="static/estilo2.css">
+    <link rel="stylesheet" href="static/estilo3.css">
+    <link rel="icon" type="image.jpg" href="static/iconevh.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    {% block head%}
+    {% endblock %}
+</head>
+    <div class="bg1">
+        <body>
+           <div class="bg">
+               <div class="container" >
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+                    <link rel="stylesheet" href="static/estilo.css">
+                    <link rel="icon" type="image.png" href="static/logo.png">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                   <!-- Required meta tags -->
+
+                   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                   <!-- Bootstrap CSS -->
+
+                    {% include 'navbar.html' %}
+               </div>
+
+               {% block body %}
+               {% endblock %}
+           </div>
+       </body>
+        <div class="row footer mb-0 container-fluid mt-5 ml-0">
+            <div class="col-12 text-center ">
+
+                <head>
+                    <meta charset="utf-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Untitled</title>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+                    <link rel="stylesheet" href="assets/css/style.css">
+                </head>
+
+                <body>
+                        <div class="footer-basic mt-3 mb-3 ms-0">
+                            <footer>
+                                <div class="social"><a href="https://www.instagram.com/vhaackdesign/"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/vhaackdesign"><i class="icon ion-social-facebook"></i></a></div>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="/">Home</a></li>
+                                    <li class="list-inline-item"><a href="/produto">Catálogo</a></li>
+                                    <li class="list-inline-item"><a href="/empresa">Empresa</a></li>
+                                    <li class="list-inline-item"><a href="/profe">Informações do site</a></li>
+                                </ul>
+                                <p class="copyright">VHaack Design © 2020</p>
+                                <p>Site sem fins lucrativos</p>
+                            </footer>
+                        </div>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+                </body>
+            </div>
+       </div>
+    </div>
+</html>
